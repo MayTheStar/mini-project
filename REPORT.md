@@ -22,5 +22,5 @@
 - Pipeline reproducible with `dvc repro`.
 
 ## MLflow Dashboard Screenshots
-![Experiment 1](screenshots/exp1.png)
-![Experiment 2](screenshots/exp2.png)
+![Experiment 1](exp1.png)
+![Experiment 2](exp2.png)
