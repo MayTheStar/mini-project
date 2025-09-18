@@ -24,7 +24,7 @@ def load_data():
 
 def main(use_mlflow=True):
     X_train, X_test, y_train, y_test = load_data()
-    model = RandomForestClassifier(n_estimators=50, max_depth=3, random_state=42)
+    model = RandomForestClassifier(n_estimators=100, max_depth=7, random_state=42)
 
     if use_mlflow:
         os.environ.setdefault("MLFLOW_TRACKING_URI", os.path.abspath("./mlruns"))
