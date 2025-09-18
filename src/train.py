@@ -11,8 +11,8 @@ import mlflow.sklearn
 # ---------------------------
 # Hyperparameters (سهلة التغيير لكل تجربة)
 # ---------------------------
-n_estimators = 100
-max_depth = 5
+n_estimators = 150
+max_depth = 10
 random_state = 42
 
 # ---------------------------
