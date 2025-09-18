@@ -11,4 +11,6 @@ mlruns/
 
 # DVC
 data/processed/
-*.lock
+# *.lock
+/artifacts
+/metrics.json
