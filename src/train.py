@@ -11,8 +11,8 @@ import mlflow.sklearn
 # ---------------------------
 # Hyperparameters (سهلة التغيير لكل تجربة)
 # ---------------------------
-n_estimators = 50
-max_depth = 3
+n_estimators = 150
+max_depth = 5
 random_state = 42
 
 # ---------------------------
@@ -37,6 +37,7 @@ def load_data():
 # ---------------------------
 def main(use_mlflow=True):
     X_train, X_test, y_train, y_test = load_data()
+
 
     # إنشاء الموديل باستخدام القيم الحالية
     model = RandomForestClassifier(n_estimators=n_estimators,
@@ -79,6 +80,8 @@ def main(use_mlflow=True):
     os.makedirs("artifacts", exist_ok=True)
     with open("metrics.json", "w") as f:
         json.dump(metrics, f)
+
+ 
 
 # ---------------------------
 # Run
