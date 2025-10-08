@@ -1,4 +1,4 @@
-# Week 3 Mini-Project: Reproducible ML Workflow with MLflow, Git, and DVC
+# Week 3 Mini-Project: Reproducible ML Workflow with MLflow, Git, and DVC |SDA
 
 This starter kit demonstrates environment reproducibility with **Conda**, experiment tracking with **MLflow**, code collaboration with **Git/GitHub**, and pipeline/data reproducibility with **DVC**.
 
